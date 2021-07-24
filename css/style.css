@@ -1,0 +1,62 @@
+.header-section{
+    background-image: url(../banner-products/banner-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 75px;
+}
+.nav-content{
+    color: black !important;
+    font-size: 20px !important;
+}
+.carousel-content{
+    padding-right: 150px;
+   
+}
+.buy-now-button{
+    background-color: black;
+    border-radius: 7px;
+    color: white;
+    padding: 5px 8px;
+    border: 0;
+}
+.fas{
+    padding: 0 5px;
+}
+
+.carousel-indicators button {
+    border-radius: 50%;
+    background-color: #0000ff !important;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0, 0.5);    
+}
+
+.smartphone-section{
+    margin-bottom: 75px;
+}
+.individual-smartphone{
+    border: none;
+    border-radius: 15px;
+}
+.individual-laptop{
+    border: none;
+    border-radius: 15px;
+}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+@media only screen and (max-width: 576px) {
+    .carousel-content {
+        padding: 0 36px;
+        width: 100%;
+    }
+    .carousel-inner{
+        width: 100%;
+    }
+    .carousel-content button{
+        margin-left: 115px;
+    }
+
+}
