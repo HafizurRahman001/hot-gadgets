@@ -1,18 +1,25 @@
+
+/* ===========================Navbar Section========================= */
+
 .header-section{
     background-image: url(../banner-products/banner-bg.png);
     background-repeat: no-repeat;
     margin-bottom: 75px;
 }
+
 .nav-content{
     color: black !important;
     font-size: 20px !important;
 }
+
+/* ==========================Carousel Section========================= */
+
 .carousel-content{
     padding-right: 150px;
    
 }
 .buy-now-button{
-    background-color: black;
+    background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.596));
     border-radius: 7px;
     color: white;
     padding: 5px 8px;
@@ -28,6 +35,8 @@
     box-shadow: inset 1px 1px 1px 1px rgba(0,0,0, 0.5);    
 }
 
+/* ===========================Smart Phone Section=============================== */
+
 .smartphone-section{
     margin-bottom: 75px;
 }
@@ -35,18 +44,66 @@
     border: none;
     border-radius: 15px;
 }
+
+/* ========================Laptop Section========================================== */
+
 .individual-laptop{
     border: none;
     border-radius: 15px;
 }
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
+
+
+/* ================================Categories Section=================================== */
+
+.categories-section{
+    margin: 75px;
+}
+.categories{
+    margin-top: 70px;
+}
+hr {
+    width: 145px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    height: 4px !important;
+    border-radius: 36%;
+    background-color: rgba(255, 153, 0, 0.966) !important;
+    opacity: 100%;
+}
+.bag-section {
+    margin-right: 25px;
+    height: 214px;
+    width: 214px;
+    margin-top: 98px;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 0 16px 0 16px;
+    box-shadow: 0px 0px 6px 5px rgb(0 0 0 / 11%);
+}
+.perfume-section {
+    height: 214px;
+    width: 214px;
+    padding: 25px;
+    border-radius: 16px 0px 16px 0px;
+    box-shadow: 0px 0px 6px 5px rgb(0 0 0 / 11%);
+    margin-bottom: 25px;
+}
+.shoe-section{
+    height: 214px;
+    width: 214px;
+    padding: 25px;
+    border-radius: 16px 0px 16px 0px;
+    box-shadow: 0px 0px 6px 5px rgb(0 0 0 / 11%);
+    margin-bottom: 25px;
+}
+.categories-left-image{
+    padding-left: 17px;
+}
+
+
+/* =======================Applying Media Query================================== */
+
 @media only screen and (max-width: 576px) {
     .carousel-content {
         padding: 0 36px;
@@ -57,6 +114,16 @@
     }
     .carousel-content button{
         margin-left: 115px;
+    }
+    .bag-section{
+        margin: 0;
+        margin-bottom: 25px;
+    }
+    .xx {
+        padding: 24px;
+    }
+    .categories-left-image{
+        padding-left: 100px;
     }
 
 }
