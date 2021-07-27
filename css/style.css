@@ -122,6 +122,9 @@ hr {
         margin: 0;
         margin-bottom: 25px;
     }
+    .categories-section {
+        margin: 10px;
+    }
     .categories-left-section {
         padding: 24px;
     }
